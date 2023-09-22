@@ -1,6 +1,6 @@
 # Repository Introduction
 
-This repository contains a collection of code for students that take the CSE 341 course at Brigham Young University - Idaho.
+This repository contains a collection of code for the CSE 341 Web Services Teams assignments
 
 ## How to use this repository
 

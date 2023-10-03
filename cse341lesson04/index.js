@@ -6,9 +6,9 @@ app
   .use(cors())
   .use(express.json())
   .use(express.urlencoded({ extended: true }))
-  .use('/', require('./routes'));
+  .use('/', require('./cse341-code-student-L04-team-start/routes'));
 
-const db = require('./models');
+const db = require('./cse341-code-student-L04-team-start/models');
 db.mongoose
   .connect(db.url, {
     useNewUrlParser: true,
@@ -22,7 +22,7 @@ db.mongoose
     process.exit();
   });
 
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}.`);
 });

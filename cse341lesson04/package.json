@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "LDS Temple API for BYU-Idaho WDD230 student projects",
   "main": "index.js",
+  "nodemon": "index.js",
   "scripts": {
     "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"

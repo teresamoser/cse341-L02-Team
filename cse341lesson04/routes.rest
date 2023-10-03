@@ -1,0 +1,15 @@
+//LOCALHOST
+###
+GET http://localhost:3000 HTTP/1.1
+###
+GET http://localhost:3000/test.temples HTTP/1.1
+###
+GET http://localhost:3000/test.temples HTTP/1.1
+
+
+
+//PRODUCTION Deploy
+###
+GET https://lesson04-6ur1.onrender.com/test.temples HTTP/1.1
+###
+GET https://lesson04-6ur1.onrender.com/test.temples/651b909dd7cae14ab0b20c1f HTTP/1.1
